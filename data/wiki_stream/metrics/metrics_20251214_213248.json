@@ -1,0 +1,39 @@
+{
+  "total_events": 2,
+  "events_by_type": {
+    "edit": 2
+  },
+  "events_by_entity": {
+    "O La La": 1,
+    "Kenjir\u00f4 Ishimaru": 1
+  },
+  "events_by_user": {
+    "SampleUser": 2
+  },
+  "bot_edits": 0,
+  "human_edits": 2,
+  "change_sizes": [
+    500,
+    500
+  ],
+  "summary": {
+    "total_events": 2,
+    "unique_entities": 2,
+    "unique_users": 1,
+    "bot_ratio": 0.0,
+    "avg_change_size": 500.0
+  },
+  "schema": {
+    "description": "Wikipedia stream processing metrics",
+    "fields": [
+      "total_events: Integer - Total number of events collected",
+      "events_by_type: Dict - Count of events grouped by type (edit, new, etc.)",
+      "events_by_entity: Dict - Count of events grouped by tracked entity",
+      "events_by_user: Dict - Count of events grouped by user",
+      "bot_edits: Integer - Number of bot edits",
+      "human_edits: Integer - Number of human edits",
+      "change_sizes: List[Integer] - List of change sizes in bytes",
+      "summary: Dict - Summary statistics"
+    ]
+  }
+}

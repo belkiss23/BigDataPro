@@ -1,0 +1,17 @@
+{
+  "total_alerts": 0,
+  "alerts": [],
+  "alerts_by_type": {},
+  "alerts_by_severity": {},
+  "schema": {
+    "description": "Wikipedia stream processing alerts - events requiring action",
+    "fields": [
+      "timestamp: String - ISO timestamp of alert",
+      "entity: String - Entity name that triggered alert",
+      "alert_type: String - Type of alert (VANDALISM, DELETION, BLOCK, etc.)",
+      "user: String - Wikipedia username",
+      "details: String - Alert details/comment",
+      "severity: String - Severity level (HIGH, MEDIUM, LOW)"
+    ]
+  }
+}
